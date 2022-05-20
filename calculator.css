@@ -1,0 +1,105 @@
+.calculator-frame {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 12cm;
+}
+
+#display {
+    border: 1px solid rgb(192, 226, 0, 0.301);
+    background-color:black;
+    height: 2cm;
+    width:12cm;
+    color: purple;
+    font-size: 25px;
+    text-align: right;
+    text-emphasis-color: white;
+}
+
+.buttons {
+    padding: 10px;
+}
+
+.clearButton {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: goldenrod;
+    color: white;
+    height: 1cm;
+    width: 2.5cm;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.HelpOperatorButton {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(32, 218, 88);
+    color: white;
+    height:1.5cm;
+    width: 1cm;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+.numberButton {
+    border: 1px solid white;
+    background-color: darkslategrey;
+    color: white;
+    height: 1.5cm;
+    width:2cm;
+    font-size: 25px;
+    font-family: Courier 'Courier New', Courier, monospace;
+}
+
+
+
+
+.basicOperatorButton {
+    border: 1px solid white;
+    background-color: darkturquoise;
+    color: white;
+    height: 1.5cm;
+    width: 3.55cm;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.advancedOperatorButton {
+    border: 1px solid white;
+    background-color: darkturquoise;
+    color: white;
+    height: 1cm,;
+    width: 1.5cm;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+
+
+
+
+.equalsToButton {
+    border: 1px solid white;
+    background-color: purple;
+    color: white;
+    height: 1.5cm;
+    width: 2.5cm;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30%);
+}
